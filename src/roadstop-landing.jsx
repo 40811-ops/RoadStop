@@ -94,10 +94,10 @@ const RoadStopLanding = () => {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { icon: '🚨', title: 'Preocupações de Segurança', desc: 'Áreas de descanso inseguras com segurança limitada' },
-              { icon: '🏚️', title: 'Condições Precárias', desc: 'Instalações antigas com problemas de higiene' },
-              { icon: '🛏️', title: 'Opções Limitadas', desc: 'Poucas alternativas de hospedagem adequadas' },
-              { icon: '📱', title: 'Sem Tecnologia', desc: 'Falta de serviços digitais e conectividade' },
+              { title: 'Preocupações de Segurança', desc: 'Áreas de descanso inseguras com segurança limitada' },
+              { title: 'Condições Precárias', desc: 'Instalações antigas com problemas de higiene' },
+              { title: 'Opções Limitadas', desc: 'Poucas alternativas de hospedagem adequadas' },
+              { title: 'Sem Tecnologia', desc: 'Falta de serviços digitais e conectividade' },
             ].map((item, idx) => (
               <div key={idx} className="bg-white/5 border border-white/10 rounded-xl p-8 hover:border-white/20 transition-all">
                 <div className="text-4xl mb-4">{item.icon}</div>
